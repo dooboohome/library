@@ -1,0 +1,61 @@
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+
+# Java specific files
+*.class
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Application specific files
+*.iml
+*.ipr
+*.iws
+
+# Maven specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle specific files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# JPA (Java Persistence API) specific files
+*.h2.db
+*.mv.db
+
+# EgovFramework specific files
+logs/
+egovframework/egovProps/egovProps.properties
+egovframework/egovProps/egovProps_db.properties
+
+# Node specific files
+node_modules/
+
+# Dist directory
+dist/
+out/
+bin/
